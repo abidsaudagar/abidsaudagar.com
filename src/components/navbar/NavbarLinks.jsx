@@ -9,7 +9,7 @@ const links = [
 
 const NavbarLinks = () => {
   return (
-    <ul className="flex lg:flex-row sm:flex-col gap-6 lg:text-white sm:text-black font-special lg:relative sm:absolute sm:top-[120%] text-center sm:left-[50%] lg:left-[140%] -translate-x-[50%] lg:text-md sm:text-xl backdrop-blur-lg lg:bg-none sm:w-full py-1">
+    <ul className="flex lg:flex-row sm:flex-col gap-6 lg:text-white sm:text-black font-special lg:relative sm:absolute sm:top-[120%] text-center sm:left-[50%] lg:left-[50%] sm:-translate-x-[50%] lg:-translate-x-[100%] lg:text-md sm:text-xl backdrop-blur-lg lg:bg-none sm:w-full py-1">
       {links.map((link, index) => {
         return (
           <li key={index} className="group">

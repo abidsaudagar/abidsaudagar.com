@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import YoutubeVideos from "./YoutubeVideos"
 const AboutMeText = () => {
   return (
-    <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center mr-4">
+    <div className="flex flex-col md:items-center sm:items-center md:text-center sm:text-center mr-4">
       <h2 className="text-6xl text-darkBlueM text-bold mb-10 font-body">About</h2>
       <p className="text-darkGrey font-body">
         I’m a Senior Machine Learning Engineer. I make videos about Machine Learning, NLP, LLMs, Langchain,

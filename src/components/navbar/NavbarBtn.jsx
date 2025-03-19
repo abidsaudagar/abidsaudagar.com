@@ -1,16 +1,30 @@
-import { Link } from "react-scroll";
-import { LuArrowDownRight } from "react-icons/lu";
+
 
 const NavbarBtn = () => {
   return (
-    <button className=" px-4 py-2 rounded-full text-xl font-bold mr-3 font-body text-black  flex items-center gap-1  bg-beige transition-all duration-500 hover:scale-110 hover:border-orange cursor-pointer hover:shadow-cyanShadow">
-      <Link spy={true} smooth={true} duration={500} offset={-120} to="contact" className="sm:text-md lg:text-xl">
-        Meeting
-      </Link>
-      <div className="sm:hidden md:block">
-        <LuArrowDownRight />
-      </div>
-    </button>
+     <div>
+    <a href="https://calendly.com/abidsaudagar/free-15-minute-ai-search-consulting" target="_blank" rel="noopener norefferer">
+    <div className="mr-6 inline-flex items-center space-x-2 sm:hidden font-body font-normal lg:flex">
+      
+    <p className="text-md font-body text-white whitespace-nowrap">Press</p>
+  
+    <img src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1742201069/da4klgpw_ocfevb.png" alt="S key" className="h-[40px] w-11 rounded-md shadow-orange"/>
+    <p className="text-md font-body text-white whitespace-nowrap">to Schedule Calendly Meeting </p>
+         
+    </div>
+      </a>
+    
+      <a href="https://calendly.com/abidsaudagar/free-15-minute-ai-search-consulting" target="_blank" rel="noopener norefferer">
+    < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-normal">
+      
+     <p className="text-md  font-body text-white whitespace-nowrap">Schedule</p>
+     <p className="text-md  text-white font-body whitespace-nowrap">Meeting</p>
+        
+     </div>
+     </a>
+     
+     </div>
+    
   );
 };
 

@@ -11,9 +11,9 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1741534283/abidImg_xlybki.png"
+        src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1742194171/image_1_dc409n.png"
         alt="Abid saudagar"
-        className="max-h-[350px] w-auto"
+        className=" mix-blend-multiply lg:w-[360px] sm:w-[280px] h-auto shadow-cyanShadow rounded-full"
       />
 
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">

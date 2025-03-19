@@ -14,7 +14,7 @@ const YoutubeVideos = () => {
           <div className="aspect-w-16 aspect-h-9">
           <iframe
           className="w-full h-full rounded-lg shadow-lg"
-            width="100%"
+            width="110%"
             height="200"
             src={`https://www.youtube.com/embed/${video.id}`}
             title={video.title}

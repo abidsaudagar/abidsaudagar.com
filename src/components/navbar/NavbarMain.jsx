@@ -1,7 +1,7 @@
 
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
-import NavbarBtn from "./NavbarBtn";
+import NavbarBtn from './NavbarBtn'
 import NavbarToggler from "./NavbarToggler";
 import { useSelector } from "react-redux";
 
@@ -14,8 +14,7 @@ const NavbarMain = () => {
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
           <NavbarLinks />
         </div>
-
-        <NavbarBtn />
+     <NavbarBtn/>
       </div>
       <div className="flex lg:hidden sm:block p-2.5 bg-darkBlueM items-center justify-center rounded-full  border-[0.5px] ">
         <NavbarToggler className="sm:mr-4 xs:mr-2 "/>

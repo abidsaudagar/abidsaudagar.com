@@ -1,4 +1,3 @@
-import AboutMeImage from "./AboutMeImage";
 import AboutMeText from "./AboutMeText";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -16,14 +15,7 @@ const AboutMeMain = () => {
       >
         <AboutMeText />
       </motion.div>
-      <motion.div
-        variants={fadeIn("left", 0)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
-      >
-        <AboutMeImage />
-      </motion.div>
+    
     </div>
   );
 };

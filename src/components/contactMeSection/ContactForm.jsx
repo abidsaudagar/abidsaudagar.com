@@ -36,9 +36,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="sm:mb-0">
+    <div>
       <p className="text-black">{success}</p>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3 lg:w-[105%] sm:w-[100%]">
         <input
           type="text"
           name="from_name"
@@ -70,7 +70,7 @@ const ContactForm = () => {
         />
         <button
           type="submit"
-          className="w-[25%] rounded-lg border border-none text-white font-body h-12 font-bold text-xl hover:bg-black bg-darkBlueM transition-all duration-500"
+          className="w-[28%] rounded-lg border border-none text-white font-body h-12 font-bold text-xl hover:bg-black bg-darkBlueM transition-all duration-500"
         >
           Send
         </button>
